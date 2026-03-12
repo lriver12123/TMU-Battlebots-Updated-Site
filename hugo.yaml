@@ -1,5 +1,5 @@
 baseURL: 'http://localhost:1313/'
-title: TailBliss
+title: TMU BattleBots
 languageCode: en-us
 theme: tailbliss
 DefaultContentLanguage: en
@@ -48,21 +48,21 @@ markup:
       xhtml: false
 
 params:
-  author: Nusser Studios
+  author: TMU BattleBots Team
   authorimage: ../assets/images/global/author.webp
-  og_image: /images/tailbliss-cover.png
-  moto: "Super Fast, and Flexible"
-  description: "A Hugo theme built with love, using TailwindCSS 3, Alpine.JS, and Hugo Pipes. Images are optimized for use with Hugo Pipes for WebP format."
+  og_image: /images/battlebots-cover.png
+  moto: "Building Tomorrow's Combat Champions"
+  description: "Student-run club focused on designing, building, and competing with combat robots across different weight classes at Toronto Metropolitan University."
   disable_theme_toggle: false
   disable_stay_uptodate: true
 
   p1:
-    heading: "Our mission"
+    heading: "Our Mission"
     image: "images/pages/our-mission.png"
     content:
-      - text: "Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique pellentesque. Blandit amet, sed aenean erat arcu morbi. Cursus faucibus nunc nisl netus morbi vel porttitor vitae ut. Amet vitae fames senectus vitae."
-      - text: "Sollicitudin tristique eros erat odio sed vitae, consequat turpis elementum. Lorem nibh vel, eget pretium arcu vitae. Eros eu viverra donec ut volutpat donec laoreet quam urna. Sollicitudin tristique eroserat odio sed vitae, consequat turpis elementum. Lorem nibh vel, eget pretium arcu vitae. Eros eu viverra donec ut volutpat donec laoreet quam urna."
-      - text: "Rhoncus nisl, libero egestas diam fermentum dui. At quis tincidunt vel ultricies. Vulputate aliquet velit faucibus semper. Pellentesque in venenatis vestibulum consectetur nibh id. In id ut tempus egestas. Enim sit aliquam nec, a. Morbi enim fermentum lacus in. Viverra."
+      - text: "TMU BattleBots is a student-run club focused on designing, building, and competing with combat robots across different weight classes. Based at Toronto Metropolitan University, our team brings together students passionate about engineering, robotics, and competitive design."
+      - text: "We foster a collaborative and innovative environment where students can develop their skills and bring ideas to life. Our team works on everything from mechanical design and electronics to programming and combat strategy."
+      - text: "Led by captains Ammar & Palak, our diverse team includes members specializing in mechanical design, electronics, programming, and combat strategy. We work collaboratively to push the boundaries of robotics, developing innovative solutions for weapon systems, drive mechanisms, and control systems."
   p2:
     heading: "Just in time for Hacktoberfest with JIT Tailwind."
     image: "images/pages/hacktoberfest.jpg"
@@ -112,39 +112,39 @@ params:
   social_media:
     github:
       enabled: true
-      url: 'https://github.com/nusserstudios'
+      url: 'https://github.com/TMU-BattleBots'
     facebook:
-      enabled: true
-      url: 'https://facebook.com/nusserstudios'
+      enabled: false
+      url: ''
     instagram:
-      enabled: true
-      url: 'https://instagram.com/nusserstudios'
+      enabled: false
+      url: ''
     twitter:
-      enabled: true
-      url: 'https://twitter.com/nusserstudios'
+      enabled: false
+      url: ''
     
 
 menu:
   main:
-    - identifier: prose
-      name: Prose
-      url: /prose/
-      weight: 10
     - identifier: about
-      name: About
+      name: About Us
       url: /about/
+      weight: 10
+    - identifier: arsenal
+      name: Arsenal
+      url: /arsenal/
       weight: 20
-    - identifier: categories
-      pre: dropdown
-      name: Categories
+    - identifier: calculator
+      name: Calculator
+      url: /calculator/
       weight: 30
-    - identifier: dropdown
-      pre: complexdropdown
-      name: Dropdown
+    - identifier: game
+      name: Game
+      url: /game/
       weight: 40
-    - identifier: contact
-      name: Contact
-      url: /contact/
+    - identifier: github
+      name: GitHub
+      url: https://github.com/TMU-BattleBots
       weight: 50
   categories:
     - identifier: prose

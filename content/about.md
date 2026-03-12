@@ -1,32 +1,25 @@
 ---
-title: "About"
-date: 2021-12-18T11:10:36+08:00
+title: "About Us"
+date: 2026-03-12
 draft: false
 language: en
-description: About Us
+description: Who we are and What we do
 featured_image: ../assets/images/featured/featured-img-placeholder.png
 ---
 
-# h1 Heading :blush:
-## h2 Heading
-### h3 Heading
-#### h4 Heading
-##### h5 Heading
-###### h6 Heading
+# TMU BattleBots
 
+## Who we are and What we do
 
-## Horizontal Rules
+### Description
 
-***
+TMU BattleBots is a student-run club focused on designing, building, and competing with combat robots across different weight classes. Based at Toronto Metropolitan University, our team brings together students passionate about engineering, robotics, and competitive design.
 
----
+We foster a collaborative and innovative environment where students can develop their skills and bring ideas to life.
 
-___
+### Our Team
 
-
-## Typographic replacements
-
-Enable typographer option to see result.
+Led by captains Ammar & Palak, our diverse team includes members specializing in mechanical design, electronics, programming, and combat strategy. We work collaboratively to push the boundaries of robotics, developing innovative solutions for weapon systems, drive mechanisms, and control systems.
 
 (c) (C) (r) (R) (tm) (TM) (p) (P) +-
 
