@@ -40,7 +40,7 @@ jobs:
           extended: true
 
       - name: Build with Hugo
-        run: hugo --minify --gc --baseURL "${{ steps.pages.outputs.base_url }}/" --config hugo.yaml
+        run: hugo --minify --gc --baseURL "${{ vars.SITE_URL || format('{0}/', steps.pages.outputs.base_url) }}" --config hugo.yaml
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
