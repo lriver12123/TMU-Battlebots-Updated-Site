@@ -101,13 +101,13 @@ params:
     content:
       - text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa libero labore natus atque, ducimus sed."
   p5:
-    heading: "Stay Up to Date"
+    heading: "If you have any questions, feel free to email us!"
     content:
-      - text: "Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique pellentesque."
+      - text: "Enter your email address below and we'll get back to you as soon as possible."
     action: "#"
     label: "Email address"
     placeholder: "Enter your email"
-    button: "Notify me"
+    button: "Notify"
 
   social_media:
     github:
@@ -117,8 +117,8 @@ params:
       enabled: false
       url: ''
     instagram:
-      enabled: false
-      url: ''
+      enabled: true
+      url: 'https://www.instagram.com/tmubattlebots?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=='
     twitter:
       enabled: false
       url: ''
@@ -176,25 +176,16 @@ menu:
       weight: 30
   footer:
     - identifier: about
-      name: About
-      url: /about/
+      name: Email
+      url: mailto:tmubattlebots@mues.ca
       weight: 10
     - identifier: blog
-      name: Blog
-      url: /categories/blog/
+      name: Instagram
+      url: https://www.instagram.com/tmubattlebots?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==
       weight: 20
     - identifier: news
-      name: News
-      url: /categories/news/
-      weight: 30
-    - identifier: prose
-      name: Prose
-      url: /prose/
-      weight: 40
-    - identifier: contact
-      name: Contact
-      url: /contact/
-      weight: 50
+      name: Github
+      url: https://github.com/TMU-BattleBots
 
 taxonomies:
   category: Categories
