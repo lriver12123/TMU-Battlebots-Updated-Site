@@ -13,7 +13,7 @@ Note: Keep `hugo.yaml` as the active config file (done to avoid incorrect config
 
 - Actions uses the repo variable `SITE_URL` as baseURL
 
-- For GitHub Pages user site, set `SITE_URL` to `https://TMU-BattleBots.github.io/`
-	-> Note: Prev URL was `https://tmu-battlebots.github.io/TMU-Battlebots/` - NO LONGER ACTIVE!
+- For this repo (project site), set `SITE_URL` to `https://TMU-BattleBots.github.io/TMU-Battlebots-Updated-Site/`
+- Use `https://TMU-BattleBots.github.io/` only if publishing from a separate `TMU-BattleBots.github.io` user-site repository.
 
 If `SITE_URL` is not set, workflow gets set to default GitHub Pages URL.
