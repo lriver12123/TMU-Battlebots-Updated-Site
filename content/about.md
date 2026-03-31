@@ -1,10 +1,10 @@
 ---
 title: "About Us"
 date: 2026-03-12
-draft: false
+draft: true
 language: en
 description: Who we are and What we do
-featured_image: ../assets/images/featured/featured-img-placeholder.png
+featured_image: ../assets/images/images/pages/tmu-battlebots-logo.jpeg
 ---
 
 # TMU BattleBots
@@ -21,6 +21,7 @@ We foster a collaborative and innovative environment where students can develop 
 
 Led by captains Ammar & Palak, our diverse team includes members specializing in mechanical design, electronics, programming, and combat strategy. We work collaboratively to push the boundaries of robotics, developing innovative solutions for weapon systems, drive mechanisms, and control systems.
 
+<!--
 (c) (C) (r) (R) (tm) (TM) (p) (P) +-
 
 test.. test... test..... test?..... test!....
@@ -233,3 +234,4 @@ It converts "HTML", but keep intact partial entries like "xxxHTMLyyy" and so on.
 ::: warning
 *here be dragons*
 :::
+-->
