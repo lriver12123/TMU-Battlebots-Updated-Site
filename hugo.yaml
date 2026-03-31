@@ -1,4 +1,4 @@
-baseURL: 'http://localhost:1313/'
+baseURL: 'https://TMU-BattleBots.github.io/TMU-Battlebots-Updated-Site/'
 title: TMU BattleBots
 languageCode: en-us
 theme: tailbliss
